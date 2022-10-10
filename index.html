@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>AccountIdentifier Tool</title>
+  </head>
+  <body>
+    <h1>Principal to Account ID</h1>
+    <label for="principal">Principal ID</label>
+    <input type="text" id="principal" name="principal" />
+    <br />
+    <br />
+    <div id="account" class="hidden">
+      <label for="area">Account ID</label>
+      <textarea name="area" id="area" cols="30" rows="1" readonly></textarea>
+      <script src="index.js" type="module"></script>
+      <button id="copy" type="button">Copy</button>
+    </div>
+    <style>
+      input,
+      textarea {
+        min-width: 400px;
+        padding: 1rem;
+      }
+      button {
+        display: block;
+      }
+      textarea {
+        width: 525px;
+      }
+      label {
+        display: block;
+      }
+
+      .hidden {
+        display: none;
+      }
+    </style>
+  </body>
+</html>

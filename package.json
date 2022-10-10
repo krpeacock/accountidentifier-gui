@@ -1,0 +1,21 @@
+{
+  "name": "accountidentifier-tool",
+  "version": "1.0.0",
+  "description": "simple tool to convert a principal to an accountidentifier",
+  "scripts": {
+    "build": "parcel build index.html",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "parcel": "^2.7.0",
+    "process": "^0.11.10"
+  },
+  "dependencies": {
+    "@dfinity/agent": "^0.14.0",
+    "@dfinity/nns": "^0.8.1",
+    "@dfinity/principal": "^0.14.0"
+  }
+}

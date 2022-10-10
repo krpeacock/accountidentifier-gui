@@ -1,0 +1,4 @@
+.parcel-cache
+.dfx
+dist
+node_modules
